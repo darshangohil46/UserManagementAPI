@@ -5,7 +5,7 @@ using UserManagementAPI.Services;
 namespace UserManagementAPI.Controllers
 {
     [ApiController]
-    [Route(""api/[controller]"")]
+    [Route("api/[controller]")]
     public class UsersController : ControllerBase
     {
         private readonly UserService _service;
@@ -31,7 +31,7 @@ namespace UserManagementAPI.Controllers
             }
         }
 
-        [HttpGet(""{id}"")]
+        [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
             if (id <= 0) return BadRequest("Id must be greater than 0.");
@@ -71,7 +71,7 @@ namespace UserManagementAPI.Controllers
             }
         }
 
-        [HttpPut(""{id}"")]
+        [HttpPut("{id}")]
         public IActionResult Update(int id, [FromBody] User user)
         {
             if (id <= 0) return BadRequest("Id must be greater than 0.");
@@ -94,7 +94,7 @@ namespace UserManagementAPI.Controllers
             }
         }
 
-        [HttpDelete(""{id}"")]
+        [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
             if (id <= 0) return BadRequest("Id must be greater than 0.");
