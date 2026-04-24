@@ -1,0 +1,7 @@
+G:\coursera\UserManagementAPI\obj\Debug\net8.0\UserManagementAPI.csproj.AssemblyReference.cache
+G:\coursera\UserManagementAPI\obj\Debug\net8.0\UserManagementAPI.GeneratedMSBuildEditorConfig.editorconfig
+G:\coursera\UserManagementAPI\obj\Debug\net8.0\UserManagementAPI.AssemblyInfoInputs.cache
+G:\coursera\UserManagementAPI\obj\Debug\net8.0\UserManagementAPI.AssemblyInfo.cs
+G:\coursera\UserManagementAPI\obj\Debug\net8.0\UserManagementAPI.csproj.CoreCompileInputs.cache
+G:\coursera\UserManagementAPI\obj\Debug\net8.0\UserManagementAPI.MvcApplicationPartsAssemblyInfo.cs
+G:\coursera\UserManagementAPI\obj\Debug\net8.0\UserManagementAPI.MvcApplicationPartsAssemblyInfo.cache
